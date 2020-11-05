@@ -1,0 +1,42 @@
+###########################
+# nwjapanese Events
+###########################
+
+add_namespace = british_japanese_union
+
+country_event = {
+	id = british_japanese_union.1
+	title = british_japanese_union.1.t
+	desc = british_japanese_union.1.d
+	#picture = DD
+	trigger = {
+		original_tag = ENG
+	}
+	is_triggered_only = yes
+	option = {
+		name = british_japanese_union.1.a
+		JAP = {
+			add_idea = zavis_ot_JapanP
+		}
+	}
+	option = {
+	name = british_japanese_union.1.b
+		JAP = {
+			add_political_power = -200
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
